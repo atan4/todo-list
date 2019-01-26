@@ -1,0 +1,56 @@
+.SingleDatePickerInput__disabled, .DateInput__disabled, .DateInput_input__disabled {
+  background: white;
+}
+
+.SingleDatePickerInput__disabled,
+.DateInput__disabled,
+.DateInput_input__disabled {
+  color: #a0a0a0;
+  font-style: unset;
+}
+
+.DateInput_input {
+  border-bottom: none;
+}
+
+.SingleDatePickerInput_calendarIcon {
+  margin: 0 0 0 7px;
+}
+
+.CalendarDay__selected,
+.CalendarDay__selected:active,
+.CalendarDay__selected:hover {
+  background: #9966ff;
+  border: 1px double #9966ff;
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight {
+  display: none;
+}
+
+.DateInput_input__small {
+  font-size: 14px;
+  padding: 7px 7px 0px;
+}
+
+.SingleDatePickerInput_calendarIcon {
+  float: right;
+}
+
+.SingleDatePickerInput {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.DateInput__small {
+  width: 50px;
+}
+
+.todo-overdue .DateInput_input__small {
+  color: red;
+}
+
+.todo-due-today .DateInput_input__small {
+  color: #ffcd00;
+}

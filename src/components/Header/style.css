@@ -1,0 +1,87 @@
+textarea, select, input, button {
+  outline: none;
+}
+
+.edit-icon {
+  fill: white;
+  margin-left: -25px;
+}
+
+.list-header {
+  width: 100%;
+  text-align: center;
+  background: #9966ff;
+  color: white;
+}
+
+.list-header h1 {
+  margin: 0;
+  padding: 20px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.list-name {
+  background: none;
+  padding: 7px 30px 7px 5px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.list-name::placeholder {
+  color: white;
+}
+
+.list-name:hover, .list-name:focus {
+  background: rgba(255, 255, 255, .2);
+  border-radius: 3px;
+}
+
+.add-todo {
+  border-radius: 3px 0 0 3px;
+  border: none;
+  padding: 10px;
+  width: 75%;
+  margin: 0 0 30px 0;
+  max-width: 500px;
+}
+
+.add-todo-button {
+  border: none;
+  border-radius: 0 3px 3px 0;
+  padding: 10px;
+  font-weight: 800;
+  color: #9966ff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.start-over {
+  right: 0;
+  top: 0;
+  position: absolute;
+  font-size: 12px;
+  margin: 8px;
+  background: white;
+  color: #9966ff;
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.start-over:hover {
+  background: #eeeeee;
+}
+
+@media screen and (max-width: 480px) {
+  .start-over {
+    position: relative;
+    margin: 0;
+    width: 100px;
+    top: 5px;
+    left: 5px;
+  }
+}
